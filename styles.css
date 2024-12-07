@@ -15,11 +15,33 @@ nav {
 #all-options {
   text-align: center;
   justify-content: center;
-  /* margin-left: 10%; */
+  margin: auto 30px 0 30px;
 }
 
 #ex-clean {
   height: 300px;
+  width: 250px;
+  background-color: #007090;
+  /* margin-right: 30px; */
+  margin: auto 50px 0 50px;
+
+}
+
+#in-clean {
+  height: 300px;
+  width: 250px;
+  background-color: #007090;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  margin: auto 50px 0 50px;
+  
+}
+#full-clean {
+  height: 300px;
+  width: 250px;
+  background-color: #007090;
+  /* margin-left: 100px; */
+  margin: auto 50px 0 50px;
 }
 /* .banner img{
   height: 600px;
