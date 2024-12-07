@@ -1,0 +1,5 @@
+-add proper sizing to banner img
+-add container img's to 'cleaning options'
+-add different background color to containers
+-Make testemonials in their own individual containers
+-make testemonial img in their own containers

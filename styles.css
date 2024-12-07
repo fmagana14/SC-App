@@ -9,8 +9,24 @@ nav {
   height: 60px;
 }
 
+#container {
+  text-align: left;
+}
+#all-options {
+  text-align: center;
+  justify-content: center;
+  /* margin-left: 10%; */
+}
 
+#ex-clean {
+  height: 300px;
+}
+/* .banner img{
+  height: 600px;
+  width: 60%;
+  margin-left: 10%;
 
+} */
 
 
 footer {
