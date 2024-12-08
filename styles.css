@@ -1,6 +1,9 @@
 body {
   background-color: #597A88;
   color: #ffff;
+  /* min-width: none;
+  max-width: fit-content; */
+  width: 100%;
 }
 nav {
   background-color: #003F52;
@@ -9,20 +12,28 @@ nav {
   height: 60px;
 }
 
-#container {
-  text-align: left;
+h2 {
+  margin-left: 30px;
 }
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner img{
+  max-height: 800px;
+}
+
 #all-options {
   text-align: center;
   justify-content: center;
-  margin: auto 30px 0 30px;
 }
 
 #ex-clean {
   height: 300px;
   width: 250px;
   background-color: #007090;
-  /* margin-right: 30px; */
   margin: auto 50px 0 50px;
 
 }
@@ -31,8 +42,6 @@ nav {
   height: 300px;
   width: 250px;
   background-color: #007090;
-  /* margin-left: 10px; */
-  /* margin-right: 10px; */
   margin: auto 50px 0 50px;
   
 }
@@ -43,20 +52,37 @@ nav {
   /* margin-left: 100px; */
   margin: auto 50px 0 50px;
 }
-/* .banner img{
-  height: 600px;
-  width: 60%;
-  margin-left: 10%;
 
-} */
 
+#testemonial_1 {
+  justify-content: center;
+}
+
+#testemonial_2 {
+  justify-content: center;
+}
+#test_1 {
+  height: 220px;
+  width: 350px;
+  background-color: #007090;
+}
+#test_2 {
+  height: 220px;
+  width: 350px;
+  background-color: #007090;
+}
+
+#car {
+  margin-left: 8rem;
+  width: 50%;
+}
 
 footer {
   text-align: center;
-  position: fixed;
+  padding-top: 25px;
   bottom: 0;
   right: 0;
   left: 0;
-  height: 60px;
+  height: 100px;
   background-color: #003F52;
 }
