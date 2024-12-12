@@ -1,9 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #597A88;
   color: #ffff;
-  /* min-width: none;
-  max-width: fit-content; */
   width: 100%;
+  overflow-x: hidden;
 }
 nav {
   background-color: #003F52;
@@ -28,6 +32,10 @@ h2 {
 #all-options {
   text-align: center;
   justify-content: center;
+}
+
+#price-1 {
+  align-content: flex-end;
 }
 
 #ex-clean {
@@ -75,6 +83,18 @@ h2 {
 #car {
   margin-left: 8rem;
   width: 50%;
+  max-width: 100%;
+}
+
+.btn-light {
+  background-color: #003F52;
+  color: white;
+  transition: background-color .3s erase;
+}
+
+.btn-light:hover {
+  background-color: #007090;
+  color: white;
 }
 
 footer {

@@ -11,10 +11,7 @@
 - grab larger img to properly porportion them to cards 
 - add price button to each 'cleaning options' card
 - add 'contact us!' button to banner img
-- fix spacing issue on right of website
-
-
-
+- fix spacing issue on right of website COMPLETED
 
 
 -new project idea for FUTURE:
